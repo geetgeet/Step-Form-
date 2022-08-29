@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/Styles/main.css">
+    <title>Planning Something</title>
+    
+</head>
+<body>
+    <form id="stepByStepForm" class="form">
+      <div class="form-container">
+        
+     
+        <div class="step step1">
+         <div class="step-container">
+           <h1 class="heading">Planning Something</h1>
+           <p class="sub-description">Set a payment method for Planning Something</p>
+           <button id="continue-btn" class="button">
+            Continue
+         </button>
+         <p class="by-text">We will charge your card R1 to verify that it is a valid payment method. Your credit card details are securely stored by <a target="_blank" href="https://paystack.com/za/terms?q=/terms">Paystack</a>, not us.</p>
+      </div>
+      </div>
+     
+        <div class="step step2 hidden">
+         <div class="step-container">
+            <p class="heading">{{Trip Name}}</p>
+            <p class="sub-description">Set a payment method</p>
+            <button id="pay-btn" class="button">
+                Pay {{Total}}
+             </button>
+             <p class="by-text">Your credit card details are securely stored by <a target="_blank" href="https://paystack.com/za/terms?q=/terms">Paystack</a>, not us.</p>
+            </div>
+            </div>
+     
+        <div class="step step3 hidden">
+         <div class="step-container">
+            <p class="heading">Planning Something</p>
+            <p class="sub-description"> Set a payment method for Planning Something</p>
+
+           <div class="input-group">
+              <input type="number" placeholder="Account Number" id="accountNumber" >
+           </div>
+
+           <div class="input-group"> 
+            <select id="bank-list" >
+               <option value="">Select a bank</option>
+            </select>  
+           </div>
+         </div>
+        </div>
+     
+    
+        <div class="button-group">
+           <button id="validate" type="submit" class="hidden button">
+              Submit
+        </button>
+        </div>
+      </div>
+     </form>
+</body>
+<script src="./Assets/Scripts/main.js"></script>
+</html>

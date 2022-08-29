@@ -1,0 +1,50 @@
+
+{"banks":[{
+    "id": 1,
+    "bank_name": "The Providence Service Corporation",
+    "branch_code": "68828-162"
+  }, {
+    "id": 2,
+    "bank_name": "Watsco, Inc.",
+    "branch_code": "36987-2983"
+  }, {
+    "id": 3,
+    "bank_name": "AllianzGI Convertible & Income Fund",
+    "branch_code": "59332-001"
+  }, {
+    "id": 4,
+    "bank_name": "HollyFrontier Corporation",
+    "branch_code": "52959-994"
+  }, {
+    "id": 5,
+    "bank_name": "Scudder Strategic Income Trust",
+    "branch_code": "53187-236"
+  }, {
+    "id": 6,
+    "bank_name": "JetBlue Airways Corporation",
+    "branch_code": "0264-7800"
+  }, {
+    "id": 7,
+    "bank_name": "Sanmina Corporation",
+    "branch_code": "64159-6011"
+  }, {
+    "id": 8,
+    "bank_name": "Marathon Oil Corporation",
+    "branch_code": "63629-2598"
+  }, {
+    "id": 9,
+    "bank_name": "Kinder Morgan, Inc.",
+    "branch_code": "47682-681"
+  }, {
+    "id": 10,
+    "bank_name": "Enbridge Inc",
+    "branch_code": "0187-0498"
+  }, {
+    "id": 11,
+    "bank_name": "HubSpot, Inc.",
+    "branch_code": "40032-140"
+  }, {
+    "id": 12,
+    "bank_name": "Whirlpool Corporation",
+    "branch_code": "42388-013"
+  }]}

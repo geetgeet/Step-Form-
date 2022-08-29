@@ -1,0 +1,139 @@
+$darkgrey: #33312E;
+$orange: #ff8552;
+$lightgrey: #e6e6e6;
+$lightblue: #A2C7E5;
+$green: #1A936F;
+
+* {
+   padding: 0;
+   margin: 0;
+}
+
+.hidden {
+   display: none;
+}
+
+.button {
+   position: absolute;
+   float: left;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   width: 250px;
+   height: 50px;
+   cursor: pointer;
+   border-radius: 5px;
+   border: none;
+   color: white;
+   font-weight: bold;
+   font-size: 1em;
+   transition: all .5s ease;
+   background-color: $darkgrey;
+
+   &:hover {
+      background-color: darken($darkgrey, 15%);
+   }
+
+   &.disabled {
+      opacity: 0.5;
+
+      &:hover {
+         background-color: $darkgrey;
+      }
+   }
+}
+
+.form {
+   display: flex;
+   position: absolute;
+   float: left;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   flex-wrap: wrap;
+   text-align: center;
+   height: 100%;
+   width: 100%;
+   justify-content: center;
+
+   .step-container {
+      height: 90%;
+
+      .heading {
+         margin: 50px 5px 0px 5px;
+         font-size: 30px;
+         font-weight: bold;
+      }
+
+      .sub-description {
+         font-size: 15px;
+         margin-top: 25px;
+
+      }
+
+      .by-text {
+         display: inline-block;
+         font-size: 20px;
+         position: absolute;
+         bottom: 0;
+         left: 0;
+         text-align: center;
+         margin: 15px;
+      }
+   }
+
+   background-color: white;
+   font-family: "Raleway",
+   sans-serif;
+   color: $darkgrey;
+   border-radius: 0.2em;
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+   0 6px 6px rgba(0, 0, 0, 0.23);
+
+}
+
+label {
+   font-weight: bold;
+}
+
+input,
+select {
+   width: 250px;
+   height: 50px;
+   margin-bottom: 15px;
+   box-sizing: border-box;
+   margin-top: 15px;
+   border: none;
+   border-radius: 5px;
+   font-size: 1em;
+   border: 1px solid $darkgrey;
+   font-family: "Raleway", sans-serif;
+
+   &:focus {
+      border: none;
+   }
+}
+select{
+   overflow: scroll;
+
+   option{
+      position: absolute;
+      width:200px;
+      height: 150px;
+   }
+  
+   
+}
+.button-group {
+   width: 100%;
+}
+
+button#validate {
+   margin: auto;
+   background-color: $darkgrey;
+   width: 250px;
+
+   &:hover {
+      background-color: darken($darkgrey, 10%);
+   }
+}
